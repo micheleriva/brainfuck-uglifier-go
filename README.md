@@ -12,5 +12,32 @@ $ go run main.go <path/to/your/brainfuck/program.bf>
 
 this will write for you an ugly `optimized.bf` file in your current working directory.
 
+**Example**
+
+input:
+
+```brainfuck`
+-[--->+<]>--.   # S
+[--->+<]>--.    # O
+[--->+<]>-----. # Space
++++++[->+++<]>. # O
++.              # P
+++++.           # T
+-----------.    # I
+++++.           # M
+----.           # I
+-[--->+<]>++.   # Z
+---[->+++<]>.   # E
+-.              # D
+[->+++<]>++.    # Point
+``
+
+output:
+
+```brainfuck
+-[--->+<]>--.[--->+<]>--.[--->+<]>-----.+++++[->+++<]>.+.++++.-----------.++++.----.-[--->+<]>++.---[->+++<]>.-.[->+++<]>++.
+```
+
+
 # License
 [MIT](/LICENSE.md)
