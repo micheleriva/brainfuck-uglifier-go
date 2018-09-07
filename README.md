@@ -16,7 +16,7 @@ this will write for you an ugly `optimized.bf` file in your current working dire
 
 input:
 
-```brainfuck`
+```brainfuck
 -[--->+<]>--.   # S
 [--->+<]>--.    # O
 [--->+<]>-----. # Space
@@ -30,7 +30,7 @@ input:
 ---[->+++<]>.   # E
 -.              # D
 [->+++<]>++.    # Point
-``
+```
 
 output:
 
